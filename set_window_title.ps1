@@ -1,0 +1,1 @@
+﻿$host.UI.RawUI.WindowTitle = "Custom Window Name"

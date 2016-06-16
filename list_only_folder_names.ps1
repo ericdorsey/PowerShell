@@ -1,0 +1,1 @@
+﻿Get-ChildItem | ?{$_.PSIsContainer} | Select-Object Name | Format-Table -HideTableHeaders
