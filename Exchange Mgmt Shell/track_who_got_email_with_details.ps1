@@ -1,0 +1,2 @@
+﻿# Track who got an email w/ details
+Get-TransportServer | Get-MessageTrackingLog -Start "1/1/2016" -MessageSubject "Foo Subject" | Select Timestamp, EventID, Sender, Recipients, MessageSubject | Sort TimeStamp
